@@ -32,9 +32,60 @@ cloth-config = 348521    # settings library MoreCulling needs (shedaniel)
 modkeel-companion = 1718308  # world copies before mod changes, crash diagnosis
 iris = 455508            # shader packs on Sodium; lab: 300 mobs +64% FPS (1.21.1) vs vanilla
 
+# On by default: the build writes overrides/config/iris.properties with its file name.
+# Complementary License 1.2: allowed in a modpack through the store's own system (never as an
+# uploaded file), unmodified, visibly credited in the description; problems it causes are ours.
+[shaderpack]
+name = "complementary-reimagined"  # EminGT, complementary.dev
+curseforge = 627557
+
 [curseforge_skip]
 modernfix = ["26.2"]
 
 [modrinth]  # [curseforge] names whose Modrinth slug differs (the modrinth action)
 ferritecore = "ferrite-core"
 modkeel-companion = "modkeel"
+
+# Gallery candidates (build_pack.py shots --mc 26.2, and --no-shader for the same shots without
+# it): mode out = outside from above, water = under water beside it; time = hour in ticks
+# (1000 morning, 6000 noon, 12500 sunset), real light without night vision.
+[[shots]]
+name = "village-noon"
+structure = "minecraft:village_plains"
+time = 6000
+[[shots]]
+name = "village-sunset"
+structure = "minecraft:village_plains"
+yaw = 270
+time = 12500
+[[shots]]
+name = "taiga-morning"
+structure = "minecraft:village_taiga"
+time = 1000
+[[shots]]
+name = "outpost-dusk"
+structure = "minecraft:pillager_outpost"
+time = 12800
+
+# Store gallery, first in the kit (tools/pack_kit.py); before-after.jpg is village-sunset with
+# and without the shader pack, split down the middle.
+[[gallery]]
+file = "before-after.jpg"
+title = "Without shaders and with Keel Shaders"
+description = "The same village at sunset: vanilla on the left, Complementary Reimagined on the right."
+[[gallery]]
+file = "village-sunset.jpg"
+title = "Sunset over a plains village"
+description = "Warm light, long shadows and water that reflects the hills."
+[[gallery]]
+file = "outpost-dusk.jpg"
+title = "A pillager outpost at dusk"
+description = "Snowy taiga with the sun going down behind the hill."
+[[gallery]]
+file = "taiga-morning.jpg"
+title = "Morning in a taiga village"
+description = "Soft morning light and haze over the river."
+[[gallery]]
+file = "village-noon.jpg"
+title = "A plains village at noon"
+description = "Clear daylight, still vanilla in style."

@@ -2,10 +2,10 @@
  "pack": "Keel Shaders",
  "minecraft": "26.2",
  "loader": "fabric",
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "server": {
   "started": true,
-  "start_seconds": 3.802,
+  "start_seconds": 3.302,
   "structures_generated": 0
  },
  "client": {

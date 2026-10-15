@@ -226,5 +226,24 @@
   "projectID": 455508,
   "fileID": 8868971,
   "title": "Iris Shaders"
+ },
+ {
+  "project": "complementary-reimagined",
+  "source": "curseforge",
+  "version": "ComplementaryReimagined_r5.9.3.zip",
+  "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip",
+  "url": "https://mediafilez.forgecdn.net/files/8884/654/ComplementaryReimagined_r5.9.3.zip",
+  "hashes": {
+   "sha1": "838139b54cddb56b2e83cd260d8efd960ac536d6",
+   "sha512": "45304b1d7862afdb2177b7e6226fc9c6737911d17a4ad46cc9c519ca4deb935f05072cd337cd8b19a15bb8062b57b54eceec7bdee4cd572d94858e2946d37d85"
+  },
+  "size": 553397,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "projectID": 627557,
+  "fileID": 8884654,
+  "title": "Complementary Shaders - Reimagined"
  }
 ]

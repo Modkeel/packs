@@ -8,7 +8,7 @@ with a pack here: [open an issue](https://github.com/Modkeel/packs/issues/new?te
 |---|---|---|
 | Keel Performance | 1.21.1, 26.2 (Fabric) | [CurseForge](https://www.curseforge.com/minecraft/modpacks/keel-performance) |
 | Keel Shaders | 26.2 (Fabric) | [CurseForge](https://www.curseforge.com/minecraft/modpacks/keel-shaders) |
-| Keel Vanilla+ | 1.21.1, 26.2 (Fabric) | coming to CurseForge |
+| Keel Vanilla+ | 1.21.1, 26.2 (Fabric) | [CurseForge](https://www.curseforge.com/minecraft/modpacks/keel-vanilla) |
 | Keel: Better Structures | 26.2 (Fabric) | [Modrinth](https://modrinth.com/modpack/eV8jcYlQ) |
 
 Every pack ships the [Modkeel Companion](https://github.com/Modkeel/companion), which backs up

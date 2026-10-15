@@ -15,6 +15,7 @@ minecraft = ["1.21.1", "26.2"]
 [listing]
 categories = ["Vanilla+", "Small / Light"]  # the first is the main one
 license = "MIT"
+curseforge_id = 1746611  # www.curseforge.com/minecraft/modpacks/keel-vanilla
 
 [curseforge]
 fabric-api = 306612

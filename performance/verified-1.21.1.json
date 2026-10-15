@@ -1,0 +1,76 @@
+{
+ "pack": "Keel Performance",
+ "minecraft": "1.21.1",
+ "loader": "fabric",
+ "date": "2026-10-14",
+ "server": {
+  "started": true,
+  "start_seconds": 15.625,
+  "structures_generated": 0
+ },
+ "client": {
+  "joined_world": true
+ },
+ "mods": {
+  "fabric-api": {
+   "mod_id": "fabric-api",
+   "structures": [],
+   "not_placed": {}
+  },
+  "sodium": {
+   "mod_id": "sodium",
+   "structures": [],
+   "not_placed": {}
+  },
+  "entityculling": {
+   "mod_id": "entityculling",
+   "structures": [],
+   "not_placed": {}
+  },
+  "immediatelyfast": {
+   "mod_id": "immediatelyfast",
+   "structures": [],
+   "not_placed": {}
+  },
+  "moreculling": {
+   "mod_id": "moreculling",
+   "structures": [],
+   "not_placed": {}
+  },
+  "lithium": {
+   "mod_id": "lithium",
+   "structures": [],
+   "not_placed": {}
+  },
+  "ferritecore": {
+   "mod_id": "ferritecore",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modernfix": {
+   "mod_id": "modernfix",
+   "structures": [],
+   "not_placed": {}
+  },
+  "dynamic-fps": {
+   "mod_id": "dynamic_fps",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modmenu": {
+   "mod_id": "modmenu",
+   "structures": [],
+   "not_placed": {}
+  },
+  "cloth-config": {
+   "mod_id": "cloth-config",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modkeel-companion": {
+   "mod_id": "modkeel",
+   "structures": [],
+   "not_placed": {}
+  }
+ }
+}

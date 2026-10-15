@@ -1,0 +1,384 @@
+{
+ "pack": "Keel: Better Structures",
+ "minecraft": "26.2",
+ "loader": "fabric",
+ "date": "2026-09-29",
+ "server": {
+  "started": true,
+  "start_seconds": 10.051,
+  "structures_generated": 197
+ },
+ "client": {
+  "joined_world": true
+ },
+ "mods": {
+  "appleskin": {
+   "mod_id": "appleskin",
+   "structures": [],
+   "not_placed": {}
+  },
+  "cloth-config": {
+   "mod_id": "cloth-config",
+   "structures": [],
+   "not_placed": {}
+  },
+  "cristel-lib": {
+   "mod_id": "cristellib",
+   "structures": [],
+   "not_placed": {}
+  },
+  "dungeons-and-taverns": {
+   "mod_id": "mr_dungeons_andtaverns",
+   "structures": [
+    "nova_structures:badlands_miner_outpost",
+    "nova_structures:bogged_camp",
+    "nova_structures:catacomb",
+    "nova_structures:cave_chamber",
+    "nova_structures:cave_chamber_archeology_ruins",
+    "nova_structures:cave_chamber_colony",
+    "nova_structures:cave_chamber_dungeon_colony",
+    "nova_structures:cave_hut",
+    "nova_structures:conduit_ruin",
+    "nova_structures:creeping_crypt",
+    "nova_structures:deepslate_camp",
+    "nova_structures:desert_ruins",
+    "nova_structures:end_castle",
+    "nova_structures:end_lighthouse",
+    "nova_structures:end_ship",
+    "nova_structures:firewatch_tower_birch",
+    "nova_structures:firewatch_tower_cherry",
+    "nova_structures:firewatch_tower_dark_oak",
+    "nova_structures:firewatch_tower_forest",
+    "nova_structures:firewatch_tower_jungle",
+    "nova_structures:firewatch_tower_mangrove",
+    "nova_structures:firewatch_tower_pale",
+    "nova_structures:firewatch_tower_savanna",
+    "nova_structures:firewatch_tower_swamp",
+    "nova_structures:firewatch_tower_taiga",
+    "nova_structures:hamlet",
+    "nova_structures:illager_barracks",
+    "nova_structures:illager_camp",
+    "nova_structures:illager_hideout",
+    "nova_structures:illager_manor",
+    "nova_structures:jungle_ruins",
+    "nova_structures:lone_citadel",
+    "nova_structures:mangrove_witch_hut",
+    "nova_structures:nether_keep",
+    "nova_structures:nether_port",
+    "nova_structures:nether_skeleton_tower_crimson",
+    "nova_structures:nether_skeleton_tower_fort",
+    "nova_structures:nether_skeleton_tower_soul",
+    "nova_structures:nether_skeleton_tower_warped",
+    "nova_structures:pale_residence",
+    "nova_structures:parched_camp",
+    "nova_structures:piglin_camp",
+    "nova_structures:piglin_camp_collony",
+    "nova_structures:piglin_donjon",
+    "nova_structures:piglin_outstation",
+    "nova_structures:remnant_bee_keeper",
+    "nova_structures:remnant_big_remnant",
+    "nova_structures:remnant_big_remnant_2",
+    "nova_structures:remnant_big_remnant_3",
+    "nova_structures:remnant_birch_graveyard",
+    "nova_structures:remnant_bridge_remnant",
+    "nova_structures:remnant_bundle_tent",
+    "nova_structures:remnant_bunny_base",
+    "nova_structures:remnant_classic_village",
+    "nova_structures:remnant_creeper_homestead",
+    "nova_structures:remnant_desert_remnant",
+    "nova_structures:remnant_forest_smith",
+    "nova_structures:remnant_frog_ranch",
+    "nova_structures:remnant_graveyard",
+    "nova_structures:remnant_lava_chicken",
+    "nova_structures:remnant_medium_remnant",
+    "nova_structures:remnant_medium_remnant_2",
+    "nova_structures:remnant_miner_hut",
+    "nova_structures:remnant_mud_brick_constructor",
+    "nova_structures:remnant_ominous_shop",
+    "nova_structures:remnant_ruin_farmer",
+    "nova_structures:remnant_ruin_smith",
+    "nova_structures:remnant_sawmill",
+    "nova_structures:remnant_school_remnant",
+    "nova_structures:remnant_taiga_castle",
+    "nova_structures:remnant_woodland_hud",
+    "nova_structures:remnant_zombie_horse_ranch",
+    "nova_structures:ruin_town",
+    "nova_structures:sealing_halls",
+    "nova_structures:shrine_biome_tier_1",
+    "nova_structures:shrine_biome_tier_2",
+    "nova_structures:shrine_biome_tier_3",
+    "nova_structures:shrine_biome_tier_4",
+    "nova_structures:shrine_biome_tier_5",
+    "nova_structures:shrine_combat_tier_1",
+    "nova_structures:shrine_combat_tier_2",
+    "nova_structures:shrine_combat_tier_3",
+    "nova_structures:shrine_combat_tier_4",
+    "nova_structures:shrine_combat_tier_5",
+    "nova_structures:shrine_combat_tier_6",
+    "nova_structures:shrine_tower",
+    "nova_structures:stray_camp",
+    "nova_structures:stray_fort",
+    "nova_structures:stray_outlook",
+    "nova_structures:tavern_acacia",
+    "nova_structures:tavern_birch",
+    "nova_structures:tavern_cherry",
+    "nova_structures:tavern_dark_oak",
+    "nova_structures:tavern_desert",
+    "nova_structures:tavern_jungle",
+    "nova_structures:tavern_mangrove",
+    "nova_structures:tavern_oak",
+    "nova_structures:tavern_pale",
+    "nova_structures:tavern_snowy",
+    "nova_structures:tavern_spruce",
+    "nova_structures:tavern_swamp",
+    "nova_structures:toxic_lair",
+    "nova_structures:trial_dungeon",
+    "nova_structures:trident_trial_monument",
+    "nova_structures:undead_crypt",
+    "nova_structures:underground_house",
+    "nova_structures:village_birch",
+    "nova_structures:village_jungle",
+    "nova_structures:village_swamp",
+    "nova_structures:well_birch",
+    "nova_structures:well_dark_oak",
+    "nova_structures:well_jungle",
+    "nova_structures:well_oak",
+    "nova_structures:well_savana",
+    "nova_structures:well_spruce",
+    "nova_structures:wild_ruin",
+    "nova_structures:witch_villa"
+   ],
+   "not_placed": {
+    "nova_structures:bunker": "dimension_padding bottom 126 below a start 13 under the surface: only fits where the surface is above y~75"
+   }
+  },
+  "dynamic-fps": {
+   "mod_id": "dynamic_fps",
+   "structures": [],
+   "not_placed": {}
+  },
+  "entityculling": {
+   "mod_id": "entityculling",
+   "structures": [],
+   "not_placed": {}
+  },
+  "fabric-api": {
+   "mod_id": "fabric-api",
+   "structures": [],
+   "not_placed": {}
+  },
+  "ferrite-core": {
+   "mod_id": "ferritecore",
+   "structures": [],
+   "not_placed": {}
+  },
+  "immediatelyfast": {
+   "mod_id": "immediatelyfast",
+   "structures": [],
+   "not_placed": {}
+  },
+  "jade": {
+   "mod_id": "jade",
+   "structures": [],
+   "not_placed": {}
+  },
+  "lithium": {
+   "mod_id": "lithium",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modernfix": {
+   "mod_id": "modernfix",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modkeel": {
+   "mod_id": "modkeel",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modmenu": {
+   "mod_id": "modmenu",
+   "structures": [],
+   "not_placed": {}
+  },
+  "mouse-tweaks": {
+   "mod_id": "mousetweaks",
+   "structures": [],
+   "not_placed": {}
+  },
+  "placeholder-api": {
+   "mod_id": "placeholder-api",
+   "structures": [],
+   "not_placed": {}
+  },
+  "sodium": {
+   "mod_id": "sodium",
+   "structures": [],
+   "not_placed": {}
+  },
+  "towns-and-towers": {
+   "mod_id": "t_and_t",
+   "structures": [
+    "towns_and_towers:exclusives/pillager_outpost_classic",
+    "towns_and_towers:exclusives/pillager_outpost_iberian",
+    "towns_and_towers:exclusives/pillager_outpost_mediterranean",
+    "towns_and_towers:exclusives/pillager_outpost_nilotic",
+    "towns_and_towers:exclusives/pillager_outpost_oriental",
+    "towns_and_towers:exclusives/pillager_outpost_rustic",
+    "towns_and_towers:exclusives/pillager_outpost_swedish",
+    "towns_and_towers:exclusives/pillager_outpost_tudor",
+    "towns_and_towers:exclusives/village_classic",
+    "towns_and_towers:exclusives/village_iberian",
+    "towns_and_towers:exclusives/village_mediterranean",
+    "towns_and_towers:exclusives/village_nilotic",
+    "towns_and_towers:exclusives/village_piglin",
+    "towns_and_towers:exclusives/village_rustic",
+    "towns_and_towers:exclusives/village_swedish",
+    "towns_and_towers:exclusives/village_tudor",
+    "towns_and_towers:exclusives/village_wandering_trader_camp",
+    "towns_and_towers:mimic_desert",
+    "towns_and_towers:pillager_outpost_badlands",
+    "towns_and_towers:pillager_outpost_beach",
+    "towns_and_towers:pillager_outpost_birch_forest",
+    "towns_and_towers:pillager_outpost_desert",
+    "towns_and_towers:pillager_outpost_flower_forest",
+    "towns_and_towers:pillager_outpost_forest",
+    "towns_and_towers:pillager_outpost_grove",
+    "towns_and_towers:pillager_outpost_jungle",
+    "towns_and_towers:pillager_outpost_meadow",
+    "towns_and_towers:pillager_outpost_mushroom_fields",
+    "towns_and_towers:pillager_outpost_ocean",
+    "towns_and_towers:pillager_outpost_old_growth_taiga",
+    "towns_and_towers:pillager_outpost_savanna",
+    "towns_and_towers:pillager_outpost_savanna_plateau",
+    "towns_and_towers:pillager_outpost_snowy_beach",
+    "towns_and_towers:pillager_outpost_snowy_plains",
+    "towns_and_towers:pillager_outpost_snowy_slopes",
+    "towns_and_towers:pillager_outpost_snowy_taiga",
+    "towns_and_towers:pillager_outpost_sparse_jungle",
+    "towns_and_towers:pillager_outpost_sunflower_plains",
+    "towns_and_towers:pillager_outpost_swamp",
+    "towns_and_towers:pillager_outpost_taiga",
+    "towns_and_towers:pillager_outpost_wooded_badlands",
+    "towns_and_towers:village_badlands",
+    "towns_and_towers:village_beach",
+    "towns_and_towers:village_birch_forest",
+    "towns_and_towers:village_flower_forest",
+    "towns_and_towers:village_forest",
+    "towns_and_towers:village_grove",
+    "towns_and_towers:village_jungle",
+    "towns_and_towers:village_meadow",
+    "towns_and_towers:village_mushroom_fields",
+    "towns_and_towers:village_ocean",
+    "towns_and_towers:village_old_growth_taiga",
+    "towns_and_towers:village_savanna_plateau",
+    "towns_and_towers:village_snowy_slopes",
+    "towns_and_towers:village_snowy_taiga",
+    "towns_and_towers:village_sparse_jungle",
+    "towns_and_towers:village_sunflower_plains",
+    "towns_and_towers:village_swamp",
+    "towns_and_towers:village_wooded_badlands",
+    "towns_and_towers:wreckage_ocean"
+   ],
+   "not_placed": {}
+  },
+  "travelers-titles": {
+   "mod_id": "travelerstitles",
+   "structures": [],
+   "not_placed": {}
+  },
+  "xaeros-minimap": {
+   "mod_id": "xaerominimap",
+   "structures": [],
+   "not_placed": {}
+  },
+  "xaeros-world-map": {
+   "mod_id": "xaeroworldmap",
+   "structures": [],
+   "not_placed": {}
+  },
+  "yungs-api": {
+   "mod_id": "yungsapi",
+   "structures": [],
+   "not_placed": {}
+  },
+  "yungs-better-desert-temples": {
+   "mod_id": "betterdeserttemples",
+   "structures": [
+    "betterdeserttemples:desert_temple"
+   ],
+   "not_placed": {}
+  },
+  "yungs-better-end-island": {
+   "mod_id": "betterendisland",
+   "structures": [],
+   "not_placed": {}
+  },
+  "yungs-better-jungle-temples": {
+   "mod_id": "betterjungletemples",
+   "structures": [
+    "betterjungletemples:jungle_temple"
+   ],
+   "not_placed": {}
+  },
+  "yungs-better-mineshafts": {
+   "mod_id": "bettermineshafts",
+   "structures": [
+    "bettermineshafts:mineshaft_acacia",
+    "bettermineshafts:mineshaft_desert",
+    "bettermineshafts:mineshaft_dripstone",
+    "bettermineshafts:mineshaft_ice",
+    "bettermineshafts:mineshaft_jungle",
+    "bettermineshafts:mineshaft_lush",
+    "bettermineshafts:mineshaft_mesa",
+    "bettermineshafts:mineshaft_mushroom",
+    "bettermineshafts:mineshaft_oak",
+    "bettermineshafts:mineshaft_overgrown",
+    "bettermineshafts:mineshaft_red_desert",
+    "bettermineshafts:mineshaft_spruce",
+    "bettermineshafts:mineshaft_spruce_snowy"
+   ],
+   "not_placed": {}
+  },
+  "yungs-better-nether-fortresses": {
+   "mod_id": "betterfortresses",
+   "structures": [
+    "betterfortresses:fortress"
+   ],
+   "not_placed": {}
+  },
+  "yungs-better-ocean-monuments": {
+   "mod_id": "betteroceanmonuments",
+   "structures": [
+    "betteroceanmonuments:ocean_monument"
+   ],
+   "not_placed": {}
+  },
+  "yungs-better-strongholds": {
+   "mod_id": "betterstrongholds",
+   "structures": [
+    "betterstrongholds:stronghold"
+   ],
+   "not_placed": {}
+  },
+  "yungs-better-witch-huts": {
+   "mod_id": "betterwitchhuts",
+   "structures": [
+    "betterwitchhuts:witch_circle",
+    "betterwitchhuts:witch_hut"
+   ],
+   "not_placed": {}
+  },
+  "yungs-bridges": {
+   "mod_id": "yungsbridges",
+   "structures": [],
+   "not_placed": {}
+  },
+  "yungs-extras": {
+   "mod_id": "yungsextras",
+   "structures": [],
+   "not_placed": {}
+  }
+ }
+}

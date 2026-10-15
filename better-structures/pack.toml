@@ -1,0 +1,231 @@
+# Vanilla world, better structures: YUNG's overhauls on a Minecraft version they do not
+# support yet, through verified community ports. Each port is swapped for the official
+# build as soon as one exists for this version (tools/build_pack.py does it on every build).
+
+name = "Keel: Better Structures"
+slug = "better-structures"
+version = "0.1.0"
+summary = "Vanilla Minecraft with YUNG's structure overhauls, verified on a version they do not support yet."
+modrinth_slug = "keel-better-structures"
+categories = ["adventure", "lightweight"]
+# Modrinth environment: structures generate on the server (the integrated one in singleplayer)
+environment = "client_and_server"
+changelog = "First release."
+minecraft = "26.2"
+loader = "fabric"
+
+# Modrinth projects, latest release for this Minecraft version; required deps are added.
+mods = [
+    # base
+    "fabric-api", "cloth-config", "modmenu", "modkeel",
+    # performance
+    "sodium", "lithium", "ferrite-core", "immediatelyfast", "entityculling", "dynamic-fps",
+    # more structures, same vanilla feel
+    "dungeons-and-taverns", "towns-and-towers",
+    # quality of life
+    "appleskin", "jade", "mouse-tweaks", "xaeros-minimap", "xaeros-world-map",
+]
+# Launchers show these with a switch, on by default, so players can leave them out.
+optional = ["modkeel"]
+
+# Structures that cannot be placed at the test spots for a known reason, not a bug.
+[place_exceptions]
+"nova_structures:bunker" = "dimension_padding bottom 126 below a start 13 under the surface: only fits where the surface is above y~75"
+
+# Ports: `project` is the original Modrinth project (its official build wins once it
+# exists); the jar comes from the fork's own release when it has one, else from our build.
+[[ports]]
+project = "yungs-api"
+repo = "MentalCokuntus/YUNGs-API"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-api-26.2/Fabric/build/libs/YungsApi-26.2-Fabric-6.1.0.jar"
+
+[[ports]]
+project = "yungs-better-mineshafts"
+repo = "MentalCokuntus/YUNGs-Better-Mineshafts"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-mineshafts-26.2/Fabric/build/libs/YungsBetterMineshafts-26.2-Fabric-6.1.0.jar"
+
+[[ports]]
+project = "yungs-better-nether-fortresses"
+repo = "MentalCokuntus/YUNGs-Better-Fortresses"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-nether-fortresses-26.2/Fabric/build/libs/YungsBetterNetherFortresses-26.2-Fabric-4.1.0.jar"
+
+[[ports]]
+project = "yungs-better-strongholds"
+repo = "MentalCokuntus/YUNGs-Better-Strongholds"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-strongholds-26.2/Fabric/build/libs/YungsBetterStrongholds-26.2-Fabric-6.1.0.jar"
+
+[[ports]]
+project = "yungs-better-ocean-monuments"
+repo = "MentalCokuntus/YUNGs-Better-Ocean-Monuments"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-ocean-monuments-26.2/Fabric/build/libs/YungsBetterOceanMonuments-26.2-Fabric-5.1.0.jar"
+
+[[ports]]
+project = "yungs-better-jungle-temples"
+repo = "MentalCokuntus/YUNGs-Better-Jungle-Temples"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-jungle-temples-26.2/Fabric/build/libs/YungsBetterJungleTemples-26.2-Fabric-4.1.0.jar"
+
+[[ports]]
+project = "yungs-better-desert-temples"
+repo = "MentalCokuntus/YUNGs-Better-Desert-Temples"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-desert-temples-26.2/Fabric/build/libs/YungsBetterDesertTemples-26.2-Fabric-5.1.0.jar"
+
+[[ports]]
+project = "yungs-better-witch-huts"
+repo = "MentalCokuntus/YUNGs-Better-Witch-Huts"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-witch-huts-26.2/Fabric/build/libs/YungsBetterWitchHuts-26.2-Fabric-5.1.0.jar"
+
+[[ports]]
+project = "yungs-better-end-island"
+repo = "MentalCokuntus/YUNGs-Better-End-Island"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-better-end-island-26.2/Fabric/build/libs/YungsBetterEndIsland-26.2-Fabric-4.1.0.jar"
+
+[[ports]]
+project = "yungs-bridges"
+repo = "MentalCokuntus/YUNGs-Bridges"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-bridges-26.2/Fabric/build/libs/YungsBridges-26.2-Fabric-6.1.0.jar"
+
+[[ports]]
+project = "yungs-extras"
+repo = "MentalCokuntus/YUNGs-Extras"
+branch = "agent/minecraft-26.2-port"
+build = "yungs-extras-26.2/Fabric/build/libs/YungsExtras-26.2-Fabric-6.1.0.jar"
+
+[[ports]]
+project = "travelers-titles"
+repo = "Vesclard/Travelers-Titles"
+branch = "26.2"
+build = "travelers-titles-26.2/Fabric/build/libs/TravelersTitles-26.2-Fabric-6.2.0.jar"
+
+[[ports]]
+project = "modernfix"
+repo = "coredex-source/ModernFix---mVUS"
+branch = "fabric/26.2"
+release = "5.27.18+26.2"
+modrinth = "modernfix-mvus"  # the fork's own Modrinth project
+
+# Gallery candidates (build_pack.py shots): mode out = outside from above, in = inside the piece
+# with the most enclosed air, water = under water beside it; yaw = side the camera stands on.
+[[shots]]
+name = "stronghold-in"
+structure = "betterstrongholds:stronghold"
+mode = "in"
+[[shots]]
+name = "mineshaft-oak-in"
+structure = "bettermineshafts:mineshaft_oak"
+mode = "in"
+[[shots]]
+name = "mineshaft-lush-in"
+structure = "bettermineshafts:mineshaft_lush"
+mode = "in"
+[[shots]]
+name = "desert-temple-out"
+structure = "betterdeserttemples:desert_temple"
+[[shots]]
+name = "desert-temple-in"
+structure = "betterdeserttemples:desert_temple"
+mode = "in"
+[[shots]]
+name = "jungle-temple-out"
+structure = "betterjungletemples:jungle_temple"
+[[shots]]
+name = "jungle-temple-in"
+structure = "betterjungletemples:jungle_temple"
+mode = "in"
+[[shots]]
+name = "ocean-monument-water"
+structure = "betteroceanmonuments:ocean_monument"
+mode = "water"
+[[shots]]
+name = "fortress-in"
+dimension = "minecraft:the_nether"
+structure = "betterfortresses:fortress"
+mode = "in"
+[[shots]]
+name = "tavern-oak-out"
+structure = "nova_structures:tavern_oak"
+yaw = 200
+[[shots]]
+name = "village-meadow-out"
+structure = "towns_and_towers:village_meadow"
+[[shots]]
+name = "village-forest-out"
+structure = "towns_and_towers:village_forest"
+yaw = 300
+
+# Modrinth gallery, first one featured. Images come from `build_pack.py shots` (a real client).
+[[gallery]]
+file = "mineshaft-oak-in.jpg"
+title = "Better Mineshafts"
+description = "An oak mineshaft corridor, with rails, lanterns and cobwebs."
+[[gallery]]
+file = "stronghold-in.jpg"
+title = "Better Strongholds"
+description = "A vaulted stronghold room lit by a chandelier."
+[[gallery]]
+file = "jungle-temple-in.jpg"
+title = "Better Jungle Temples"
+description = "Inside a jungle temple, overgrown and full of traps."
+[[gallery]]
+file = "mineshaft-lush-in.jpg"
+title = "Lush mineshafts"
+description = "Mineshafts take the look of the caves they cross: this one runs through lush caves."
+[[gallery]]
+file = "ocean-monument-water.jpg"
+title = "Better Ocean Monuments"
+description = "An ocean monument seen from under the water."
+[[gallery]]
+file = "desert-temple-out.jpg"
+title = "Better Desert Temples"
+description = "A desert temple rising out of the sand."
+[[gallery]]
+file = "village-meadow-out.jpg"
+title = "Towns and Towers"
+description = "A meadow village built along a cliff."
+[[gallery]]
+file = "companion-crash.png"
+title = "Modkeel Companion"
+description = "After a crash, the next start names the likely cause and fixes it in one click."
+
+# Modrinth content disclosures, set on every publish.
+[[disclosures]]
+type = "ai_content"
+uses = ["text", "assets"]
+note = "The pack was put together, tested and described with an AI coding assistant (Claude), directed and reviewed by the author; every build passes a test on a real server and client. The icon is pixel art drawn by a script written the same way. The gallery images are real in-game screenshots. The mods themselves are the work of their authors."
+[[disclosures]]
+type = "derivative_work"
+[[disclosures.sources]]
+label = "YUNG's API and YUNG's structure mods, 26.2 port by MentalCokuntus (LGPL-3.0)"
+link = "https://github.com/MentalCokuntus"
+note = "Original mods by YUNGNICKYOUNG. Built from the fork's source, published at https://github.com/Modkeel/ports"
+[[disclosures.sources]]
+label = "Travelers' Titles, 26.2 port by Vesclard (LGPL-3.0)"
+link = "https://github.com/Vesclard/Travelers-Titles"
+note = "Original mod by YUNGNICKYOUNG."
+[[disclosures.sources]]
+label = "ModernFix, 26.2 port by coredex-source (LGPL-3.0)"
+link = "https://github.com/coredex-source/ModernFix---mVUS"
+note = "Original mod by embeddedt. The fork's own release jar."
+
+# Icon mockups: scenes/make_keel.py writes the scenes, each shot on two walls for the cutout
+[[shots]]
+name = "icon-keel-row-lime"
+scene = "keel-row-lime.txt"
+[[shots]]
+name = "icon-keel-row-magenta"
+scene = "keel-row-magenta.txt"
+[[shots]]
+name = "icon-keel-grid-lime"
+scene = "keel-grid-lime.txt"
+[[shots]]
+name = "icon-keel-grid-magenta"
+scene = "keel-grid-magenta.txt"

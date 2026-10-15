@@ -1,0 +1,39 @@
+# Keel Performance. Fabric with the optimizers the Modkeel lab measured, nothing else that
+# changes the game, plus the Modkeel Companion. Built for CurseForge (every file from there):
+# tools/build_pack.py curseforge performance. Each mod is in or out by the lab's client
+# benchmarks (frame rate with terrain and with mobs, on every Minecraft version listed).
+
+name = "Keel Performance"
+slug = "performance"
+version = "0.1.0"
+summary = "Vanilla Minecraft, faster: the optimizers the Modkeel lab measured, tested together, with a crash safety net."
+changelog = "First release."
+loader = "fabric"
+# 26.2: the Companion's newest tested version; 26.3 joins once its e2e passes there.
+minecraft = ["1.21.1", "26.2"]
+
+# CurseForge project ids (the Project ID in each project's sidebar). The newest file for each
+# version and loader goes in; tools/build_pack.py checks that every dependency is in the pack.
+# CurseForge project page (tools/pack_kit.py): fields only the website takes
+[listing]
+categories = ["Vanilla+", "Small / Light"]  # the first is the main one
+license = "MIT"
+curseforge_id = 1746533  # www.curseforge.com/minecraft/modpacks/keel-performance
+
+[curseforge]
+fabric-api = 306612
+sodium = 394468          # rendering: terrain FPS +34% (26.2), +102% (1.21.1)
+entityculling = 448233   # hidden mobs not drawn: +80% to +134% FPS behind a wall (tr7zw)
+immediatelyfast = 686911 # immediate-mode rendering: 300 mobs +45% FPS (1.21.1)
+moreculling = 630104     # more culling of blocks: terrain +13% FPS (1.21.1)
+lithium = 360438         # game logic: 400 mobs tick time -52%, redstone -37%
+ferritecore = 459857     # memory: heap after startup -6% (the Fabric project)
+modernfix = 790626       # startup time and memory
+dynamic-fps = 335493     # lower frame rate while the game is in the background
+modmenu = 308702         # the settings screens of the mods above
+cloth-config = 348521    # settings library MoreCulling needs (shedaniel)
+modkeel-companion = 1718308  # world copies before mod changes, crash diagnosis
+
+# Versions a project has no file for yet; the pack ships without it there.
+[curseforge_skip]
+modernfix = ["26.2"]

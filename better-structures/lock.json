@@ -1,0 +1,617 @@
+[
+ {
+  "project": "appleskin",
+  "source": "modrinth",
+  "version": "3.0.10+mc26.2",
+  "path": "mods/appleskin-fabric-mc26.2-3.0.10.jar",
+  "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/uo5bAN1Y/appleskin-fabric-mc26.2-3.0.10.jar",
+  "hashes": {
+   "sha512": "ddf31d8fe239f66760632606221a9ea55d31907a9f7f8667331929cad348457ec2199cb90d410ee1a06e36bafc01a3bf152a06fd3c9b9e46f50841240875832b",
+   "sha1": "03a635bae2c5a5e66825a35ff130242752054b32"
+  },
+  "size": 181627,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "Unlicense"
+ },
+ {
+  "project": "cloth-config",
+  "source": "modrinth",
+  "version": "26.2.155+fabric",
+  "path": "mods/cloth-config-26.2.155.jar",
+  "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/Nv3xnWXd/cloth-config-26.2.155.jar",
+  "hashes": {
+   "sha1": "babcf16dbd15e09d326e21ffe85ab3f7d843ef9e",
+   "sha512": "37b1e402f0df5a383656e21a38ee18cdd15cb4ba3fb62fbeba82ef4b959a4479fc32718ac0d9d154a7d9104c5f7315bfa67dbeced0b8ff240b8039d4848d5df1"
+  },
+  "size": 1135186,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "LGPL-3.0-only"
+ },
+ {
+  "project": "cristel-lib",
+  "source": "modrinth",
+  "version": "fabric-26.2-3.1.13",
+  "path": "mods/cristellib-fabric-26.2-3.1.13.jar",
+  "url": "https://cdn.modrinth.com/data/cl223EMc/versions/6cKPC8Up/cristellib-fabric-26.2-3.1.13.jar",
+  "hashes": {
+   "sha512": "15444c2166b7504cf88af4f15bc831dbc056d2cdbe7d5ae4c6d1980179ea70ddfbe5d3ce2cd1615a14741f7fe5d5ab7fff41dd26b78e3ef89866b28416ce895c",
+   "sha1": "e8f96d2d6d62a00a375c4f82eea7a310d22ac268"
+  },
+  "size": 588321,
+  "env": {
+   "client": "optional",
+   "server": "required"
+  },
+  "license": "CC-BY-NC-ND-4.0"
+ },
+ {
+  "project": "dungeons-and-taverns",
+  "source": "modrinth",
+  "version": "5.3.2+mod",
+  "path": "mods/dungeons-and-taverns-5.3.2.jar",
+  "url": "https://cdn.modrinth.com/data/tpehi7ww/versions/y9AUViOD/dungeons-and-taverns-5.3.2.jar",
+  "hashes": {
+   "sha512": "af734c31a45cb7c7cc6630d4b258b588aade4ecc6db72d443d5f4d8151ffb2c7b6edfc8fbbe4cdbc6e85d41018bb54661cf9f1dba6226cccf3e18b1de3888703",
+   "sha1": "11d740c9d0b8c5917626531608af79e295521837"
+  },
+  "size": 39642964,
+  "env": {
+   "client": "optional",
+   "server": "required"
+  },
+  "license": "LicenseRef-All-Rights-Reserved"
+ },
+ {
+  "project": "dynamic-fps",
+  "source": "modrinth",
+  "version": "3.11.9",
+  "path": "mods/dynamic-fps-3.11.9+minecraft-26.2.0-fabric.jar",
+  "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/pC2JjFw1/dynamic-fps-3.11.9%2Bminecraft-26.2.0-fabric.jar",
+  "hashes": {
+   "sha512": "79b13548d7e9de9abfa23e062724a885e5341f371c500d6570056ecea7db00c2f7ace5a7288179ad8baec575b4aa992b91dccbc940c584cb5cddf0bc7aeb892f",
+   "sha1": "e8cd9e4fbc6d42091faffc873b0801f1189ed6a5"
+  },
+  "size": 188740,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "MIT"
+ },
+ {
+  "project": "entityculling",
+  "source": "modrinth",
+  "version": "1.11.2",
+  "path": "mods/entityculling-fabric-1.11.2-mc26.2.jar",
+  "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/RWjup6Jf/entityculling-fabric-1.11.2-mc26.2.jar",
+  "hashes": {
+   "sha1": "8a379bf40ab7125756afe7bbdf9501324bc37216",
+   "sha512": "4562dd16ce9213959c41fe58a3dd73a95c9ab9095a0fc7fbaa752b6ce3433fbef5063e7f5f2634b1ff34499261f48d31e878306dac8701425af1d50e726e53fd"
+  },
+  "size": 1508311,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "LicenseRef-tr7zw-Protective-License"
+ },
+ {
+  "project": "fabric-api",
+  "source": "modrinth",
+  "version": "0.161.0+26.2",
+  "path": "mods/fabric-api-0.161.0+26.2.jar",
+  "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/ewUK83HI/fabric-api-0.161.0%2B26.2.jar",
+  "hashes": {
+   "sha1": "332da34ebb72171e603a0c538de17f4c54ea9e29",
+   "sha512": "2502fa5ade78e9a120b3747bc1a9a2167d6671743bea45bf115d3174c94121aeda87c549446d1a604a9c11fb828de17a551e3514ce42f3e93069dd14bdaee55b"
+  },
+  "size": 2566123,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "Apache-2.0"
+ },
+ {
+  "project": "ferrite-core",
+  "source": "modrinth",
+  "version": "9.0.0-fabric",
+  "path": "mods/ferritecore-9.0.0-fabric.jar",
+  "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/d5ddUdiB/ferritecore-9.0.0-fabric.jar",
+  "hashes": {
+   "sha512": "d81fa97e11784c19d42f89c2f433831d007603dd7193cee45fa177e4a6a9c52b384b198586e04a0f7f63cd996fed713322578bde9a8db57e1188854ae5cbe584",
+   "sha1": "eac76ff0f3753422c61b2c44487d0d195d88d4bc"
+  },
+  "size": 72677,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "MIT"
+ },
+ {
+  "project": "immediatelyfast",
+  "source": "modrinth",
+  "version": "1.16.5+26.2-fabric",
+  "path": "mods/ImmediatelyFast-Fabric-1.16.5+26.2.jar",
+  "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/pMWERcSu/ImmediatelyFast-Fabric-1.16.5%2B26.2.jar",
+  "hashes": {
+   "sha1": "0286260261591fe77ba0d332d5d5a2d2e868c2c6",
+   "sha512": "5836b089072c0fd796613d42c3bd01c7e401b6ad53de80328bb9d74d585de9be0ff0cfc4d6ffa1ed41008750573b0525eff8c064162a2f724ad16817a8fdaf22"
+  },
+  "size": 100500,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "LGPL-3.0-or-later"
+ },
+ {
+  "project": "jade",
+  "source": "modrinth",
+  "version": "26.2.11+fabric",
+  "path": "mods/Jade-mc26.2-Fabric-26.2.11.jar",
+  "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/ue8CO97w/Jade-mc26.2-Fabric-26.2.11.jar",
+  "hashes": {
+   "sha512": "730e07dd5cbbf850ba0e7fd4852b528867d3e2fc2de63b156c89eee9ee6dd92d882b744f97fe724f2aa0afc5b468577486d9558f80d3e46cc5fa133ba241b9c9",
+   "sha1": "101668371882c3413531025373f5d91b63e26dd0"
+  },
+  "size": 1043764,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "CC-BY-NC-SA-4.0"
+ },
+ {
+  "project": "lithium",
+  "source": "modrinth",
+  "version": "mc26.2-0.25.3-fabric",
+  "path": "mods/lithium-fabric-0.25.3+mc26.2.jar",
+  "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/f7vZ0VWU/lithium-fabric-0.25.3%2Bmc26.2.jar",
+  "hashes": {
+   "sha1": "435ad0289209bb72195e7a423756a03f5dfa5a9a",
+   "sha512": "148b638f3c6229fbaf487120a2344a0af5e411a5aa6533d5db9d75da0a8c0d8304f63eb4cca13f4d03b2c9b4c23d559dd74c1d832422ef8a3087bd005e62a8bd"
+  },
+  "size": 912850,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "LGPL-3.0-only"
+ },
+ {
+  "project": "modernfix",
+  "source": "port",
+  "version": "release 5.27.18+26.2 of coredex-source/ModernFix---mVUS",
+  "path": "mods/modernfix-5.27.18-build.1.jar",
+  "url": "https://github.com/coredex-source/ModernFix---mVUS/releases/download/5.27.18%2B26.2/modernfix-5.27.18-build.1.jar",
+  "hashes": {
+   "sha1": "8497fee7fdd87d6a1f5a7a85ee7f76e14a415e7b",
+   "sha512": "3978900e8ed16867ae5fb3d440b32c5b22d7bf55f1a84c1a874598b0808c5e14baa3220c2c597ba171596e474ddb2c28256a032cebeb06a3ec8008f13df92fe7"
+  },
+  "size": 1155463,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "coredex-source/ModernFix---mVUS"
+ },
+ {
+  "project": "modkeel",
+  "source": "modrinth",
+  "version": "0.1.0+fabric-26",
+  "path": "mods/modkeel-companion-0.1.0-fabric-26.jar",
+  "url": "https://cdn.modrinth.com/data/K4nGOhd1/versions/TRcKCQpa/modkeel-companion-0.1.0-fabric-26.jar",
+  "hashes": {
+   "sha1": "9a8eac3b3a6d3f431ce825d4114bd0f90f14835f",
+   "sha512": "08edbedfd438d983b51ed3aa0f130d73b843e5e7a93b18e5ddb3444ccd5d1e78042eef6ba098463b9ef089bf80acb996968960a1237d62427a6abb1bc6da5098"
+  },
+  "size": 128056,
+  "env": {
+   "client": "optional",
+   "server": "unsupported"
+  },
+  "license": "MIT"
+ },
+ {
+  "project": "modmenu",
+  "source": "modrinth",
+  "version": "20.0.3",
+  "path": "mods/modmenu-20.0.3.jar",
+  "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/iRo7AZXf/modmenu-20.0.3.jar",
+  "hashes": {
+   "sha1": "9fc381627b471c18d67156e846228f51ff2ea5b4",
+   "sha512": "c8224aa7a460d0c56ccb9978a112e4ad0d3eb17e2796e0c468a2392d220749f4f602838a11b3666145462c26078a879ab8a2fc177aa440f58e189c92a0088d6e"
+  },
+  "size": 616919,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "MIT"
+ },
+ {
+  "project": "mouse-tweaks",
+  "source": "modrinth",
+  "version": "26.2-2.31-fabric",
+  "path": "mods/MouseTweaks-fabric-mc26.2-2.31.jar",
+  "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/jOiTBIaB/MouseTweaks-fabric-mc26.2-2.31.jar",
+  "hashes": {
+   "sha1": "ad5b7e4ad6dc734152d41f05902b65aedb448d64",
+   "sha512": "bc77723465dc4aef7a3a8fa2fea3641df1e6ba7cc8a2d86cd2659ef65ca661f6a763d3997fdaed1f8ff6c78a4c6061f8074160ca3162a29021735779a6c55e46"
+  },
+  "size": 75872,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "BSD-3-Clause"
+ },
+ {
+  "project": "placeholder-api",
+  "source": "modrinth",
+  "version": "3.1.0-beta.1+26.2",
+  "path": "mods/placeholder-api-3.1.0-beta.1+26.2.jar",
+  "url": "https://cdn.modrinth.com/data/eXts2L7r/versions/NDqH16LT/placeholder-api-3.1.0-beta.1%2B26.2.jar",
+  "hashes": {
+   "sha512": "07b6fc802559d54ec6577f6e2788926ef391d755206c2bfb0528280977885cae4bc0c517d8a53eb6f34092015ebe6c41210627d255aa6504662daefa8fb76397",
+   "sha1": "99b57ccc1d4323c4ef71887828dac25ce4ce2103"
+  },
+  "size": 254973,
+  "env": {
+   "client": "optional",
+   "server": "optional"
+  },
+  "license": "LGPL-3.0-only"
+ },
+ {
+  "project": "sodium",
+  "source": "modrinth",
+  "version": "mc26.2-0.9.2-fabric",
+  "path": "mods/sodium-fabric-0.9.2+mc26.2.jar",
+  "url": "https://cdn.modrinth.com/data/AANobbMI/versions/xJZxADzI/sodium-fabric-0.9.2%2Bmc26.2.jar",
+  "hashes": {
+   "sha512": "9b7a7aade8824543ce2a804fddfd04e37f57d1f91c00574e7dc87e554eb1835d888313ee6f715a7599bd729840cf01fd74e02aeae87b4e5a3c10c34a016e407c",
+   "sha1": "62a70961a5b3e06938e06ab5f2dc4c5a51cf3323"
+  },
+  "size": 1885572,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "LicenseRef-Polyform-Shield-1.0.0"
+ },
+ {
+  "project": "towns-and-towers",
+  "source": "modrinth",
+  "version": "1.13.11",
+  "path": "mods/t_and_t-fabric-neoforge-1.13.11.jar",
+  "url": "https://cdn.modrinth.com/data/DjLobEOy/versions/eN3WLQ3P/t_and_t-fabric-neoforge-1.13.11.jar",
+  "hashes": {
+   "sha512": "e318ec6ea4c15b456c188fdaec3447b8ae875efa21961be5fc365a50aacf4bd7b6b939950a48707a20764a78c42eea37e19052e3cc55c843e147dfb788c2e959",
+   "sha1": "4cd47ac4de700ff8dc4d5c0cbfe9d2bf1535a92a"
+  },
+  "size": 3566810,
+  "env": {
+   "client": "optional",
+   "server": "required"
+  },
+  "license": "CC-BY-NC-SA-4.0"
+ },
+ {
+  "project": "travelers-titles",
+  "source": "port",
+  "version": "our build of Vesclard/Travelers-Titles@26.2",
+  "path": "mods/TravelersTitles-26.2-Fabric-6.2.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/TravelersTitles-26.2-Fabric-6.2.0.jar",
+  "hashes": {
+   "sha1": "6ee6c271fac0e0b5b1879cd0d6921108be2bd5c5",
+   "sha512": "217c0d7ece10b48fe2555677958aededef22f243751bc1fc3f8cc61957b5a2368c591de03a6c6fa58d6c9687be8c198fd9a4748acc7bb83ed0a10b14ec00054c"
+  },
+  "size": 349667,
+  "env": {
+   "client": "required",
+   "server": "unsupported"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "Vesclard/Travelers-Titles",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "xaeros-minimap",
+  "source": "modrinth",
+  "version": "fabric-26.2-26.5.1",
+  "path": "mods/xaerominimap-fabric-26.2-26.5.1.jar",
+  "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/VlMbRW2O/xaerominimap-fabric-26.2-26.5.1.jar",
+  "hashes": {
+   "sha512": "ceee38ce9f7dac967b7ff42eb940c00cc50596b0d9da8401a59b55be904fee703d91a72ea00d0e235f33c7fe5d75f7804ac055de92d34b0873cbc1043a101c0d",
+   "sha1": "97fb08e926a341c9c546879c25b1e1f32215dfc9"
+  },
+  "size": 2221890,
+  "env": {
+   "client": "required",
+   "server": "optional"
+  },
+  "license": "LicenseRef-All-Rights-Reserved"
+ },
+ {
+  "project": "xaeros-world-map",
+  "source": "modrinth",
+  "version": "fabric-26.2-1.46.1",
+  "path": "mods/xaeroworldmap-fabric-26.2-1.46.1.jar",
+  "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/q0Wvp46X/xaeroworldmap-fabric-26.2-1.46.1.jar",
+  "hashes": {
+   "sha512": "9e9747a3a7ee4ad1c00944c3c922895044a77f5a5d9a8a12eb012676dae66e3800440d7f4a1603e788bfdc2cef8a42be74e42dd01985c94f9073c80b00309775",
+   "sha1": "c9303ef6a8d6e2b9ffb3f3dbddbfcdff1326c2cb"
+  },
+  "size": 1477484,
+  "env": {
+   "client": "required",
+   "server": "optional"
+  },
+  "license": "LicenseRef-All-Rights-Reserved"
+ },
+ {
+  "project": "yungs-api",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-API@agent/minecraft-26.2-port",
+  "path": "mods/YungsApi-26.2-Fabric-6.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsApi-26.2-Fabric-6.1.0.jar",
+  "hashes": {
+   "sha1": "a810b96e42e775b3ae02102dd3742a34f2b2fa6b",
+   "sha512": "2b6ad27e6aa05655f0effcc7ff4aa275edd17de3d08ae9f3427ac7a69363f92cd750a53c1bd8c91529bab4f38a0a3b1357f4dab31358baa0338d4f2524c9401d"
+  },
+  "size": 1265217,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-API",
+  "requires": [
+   "fabric-api"
+  ]
+ },
+ {
+  "project": "yungs-better-desert-temples",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Desert-Temples@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterDesertTemples-26.2-Fabric-5.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterDesertTemples-26.2-Fabric-5.1.0.jar",
+  "hashes": {
+   "sha1": "74f47b54b7ecbadef24e2b628d4504139fb8fd45",
+   "sha512": "e6cbfc2e01e0b634785703eaa2fc73edfdbb4e0c88e9cc3c56373c039202d364c77fda962894974837f4a99f00a67babae3147da89669d53419483c76d76de93"
+  },
+  "size": 1039563,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Desert-Temples",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-end-island",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-End-Island@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterEndIsland-26.2-Fabric-4.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterEndIsland-26.2-Fabric-4.1.0.jar",
+  "hashes": {
+   "sha1": "bbdf143659adb749588c2ab8fbe95de59774bdbe",
+   "sha512": "933b2a135bbba4de4ad1962944ce21a09805f5b848e01be6e54c467d77ebaaac5eab57cef8be75824ace8d483704b5cf1375387b5f276dd63cbc9947462eba76"
+  },
+  "size": 527342,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-End-Island",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-jungle-temples",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Jungle-Temples@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterJungleTemples-26.2-Fabric-4.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterJungleTemples-26.2-Fabric-4.1.0.jar",
+  "hashes": {
+   "sha1": "13171b9ff8bb9b720b787a005b0ff5fe6acdf4fc",
+   "sha512": "754b101ff48e433b46ee8cb70634eb98cb6d6e0d19b2e8f2986b5fb44396a562023b7cf232f7cf5f9839a7c734f7ee16a5c952bc98efd880193d08e7658e15f3"
+  },
+  "size": 928670,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Jungle-Temples",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-mineshafts",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Mineshafts@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterMineshafts-26.2-Fabric-6.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterMineshafts-26.2-Fabric-6.1.0.jar",
+  "hashes": {
+   "sha1": "1a6723a91e0ee37d4b8b7a9f71272ee2e89ebdc3",
+   "sha512": "83b2090ebc28af959541cb6f5b99da9bbd24e93e2b7dfe9769a6215e0515e445b3bc715b21284ccada1eaa991beeecd4bd7b2c6741986b50db6a4847b197b205"
+  },
+  "size": 621261,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Mineshafts",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-nether-fortresses",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Fortresses@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterNetherFortresses-26.2-Fabric-4.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterNetherFortresses-26.2-Fabric-4.1.0.jar",
+  "hashes": {
+   "sha1": "691ecc688222d9986410833cab07284860a873a9",
+   "sha512": "8b13f8c0fe96912c64c243d3ad7ab4cea70afcb97d6fb08cd8af90b2910d34ffd771d4aaed87e1736254e55085c50bdf17499ffe6c3eff51a0c368802446d0d0"
+  },
+  "size": 741897,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Fortresses",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-ocean-monuments",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Ocean-Monuments@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterOceanMonuments-26.2-Fabric-5.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterOceanMonuments-26.2-Fabric-5.1.0.jar",
+  "hashes": {
+   "sha1": "621e01993be91b215b8adf3b74c9e97a41d6ff5e",
+   "sha512": "6db6c306360ff07efcbdbc9d83c34e769dadd69c00794708a03a77aaf06adc86a7c1b0e09e0d093796c4a711258771f9b7ea055b0581dfc9305f978d4796d055"
+  },
+  "size": 1153655,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Ocean-Monuments",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-strongholds",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Strongholds@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterStrongholds-26.2-Fabric-6.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterStrongholds-26.2-Fabric-6.1.0.jar",
+  "hashes": {
+   "sha1": "335f4bd10bfcf132f86ea0e53519bcce5f78e27f",
+   "sha512": "af3bfaa9113af13c674c30e5e93c382eb92571f426180c67df76ed8ab983c94ce733ec82bbac355bbd54c392c7d540898a89f8b0b05fe589eb0eecf077edc863"
+  },
+  "size": 592825,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Strongholds",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-better-witch-huts",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Better-Witch-Huts@agent/minecraft-26.2-port",
+  "path": "mods/YungsBetterWitchHuts-26.2-Fabric-5.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBetterWitchHuts-26.2-Fabric-5.1.0.jar",
+  "hashes": {
+   "sha1": "7e21595c5e4929d0dba59373ebe3cb95f0071b0c",
+   "sha512": "51fdd69b0bda2d9caa087dc6a0b18f0d03ab30453a246ee491fff9759bb91c1063cf36b9ce3ae387f328d592052da8e458be7e4c4b381258cf759286c2504fd6"
+  },
+  "size": 300290,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Better-Witch-Huts",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-bridges",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Bridges@agent/minecraft-26.2-port",
+  "path": "mods/YungsBridges-26.2-Fabric-6.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsBridges-26.2-Fabric-6.1.0.jar",
+  "hashes": {
+   "sha1": "9d40998dab25cc01d61790fd534b8d86ce4812d4",
+   "sha512": "28785b2644b5c843c64e94ac640de4dc874358d4cff5e85504535f3f3ffa75a31270fd48d6b103488d13321879c0e1ae56b3b7bfbfeb336ae464d449c65dde65"
+  },
+  "size": 265034,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Bridges",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ },
+ {
+  "project": "yungs-extras",
+  "source": "port",
+  "version": "our build of MentalCokuntus/YUNGs-Extras@agent/minecraft-26.2-port",
+  "path": "mods/YungsExtras-26.2-Fabric-6.1.0.jar",
+  "url": "https://github.com/Modkeel/ports/releases/download/mc-26.2/YungsExtras-26.2-Fabric-6.1.0.jar",
+  "hashes": {
+   "sha1": "2c24ceb1b8fbb18ce7842ee1d7eae39e7839a65e",
+   "sha512": "5734b8afa4efb822c92835b06141bd69970f22c3667884eb349d2793075369aef76bc3986bc43761ab2dbf8189ce2299e845384fc4a2c7e19a8d0e35e6267fb3"
+  },
+  "size": 333205,
+  "env": {
+   "client": "required",
+   "server": "required"
+  },
+  "license": "LGPL-3.0-only",
+  "repo": "MentalCokuntus/YUNGs-Extras",
+  "requires": [
+   "fabric-api",
+   "cloth-config",
+   "yungs-api"
+  ]
+ }
+]

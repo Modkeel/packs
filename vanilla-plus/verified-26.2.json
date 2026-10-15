@@ -1,0 +1,126 @@
+{
+ "pack": "Keel Vanilla+",
+ "minecraft": "26.2",
+ "loader": "fabric",
+ "date": "2026-10-15",
+ "server": {
+  "started": true,
+  "start_seconds": 2.708,
+  "structures_generated": 0
+ },
+ "client": {
+  "joined_world": true
+ },
+ "mods": {
+  "fabric-api": {
+   "mod_id": "fabric-api",
+   "structures": [],
+   "not_placed": {}
+  },
+  "sodium": {
+   "mod_id": "sodium",
+   "structures": [],
+   "not_placed": {}
+  },
+  "entityculling": {
+   "mod_id": "entityculling",
+   "structures": [],
+   "not_placed": {}
+  },
+  "immediatelyfast": {
+   "mod_id": "immediatelyfast",
+   "structures": [],
+   "not_placed": {}
+  },
+  "moreculling": {
+   "mod_id": "moreculling",
+   "structures": [],
+   "not_placed": {}
+  },
+  "lithium": {
+   "mod_id": "lithium",
+   "structures": [],
+   "not_placed": {}
+  },
+  "ferritecore": {
+   "mod_id": "ferritecore",
+   "structures": [],
+   "not_placed": {}
+  },
+  "dynamic-fps": {
+   "mod_id": "dynamic_fps",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modmenu": {
+   "mod_id": "modmenu",
+   "structures": [],
+   "not_placed": {}
+  },
+  "cloth-config": {
+   "mod_id": "cloth-config",
+   "structures": [],
+   "not_placed": {}
+  },
+  "modkeel-companion": {
+   "mod_id": "modkeel",
+   "structures": [],
+   "not_placed": {}
+  },
+  "appleskin": {
+   "mod_id": "appleskin",
+   "structures": [],
+   "not_placed": {}
+  },
+  "mouse-tweaks": {
+   "mod_id": "mousetweaks",
+   "structures": [],
+   "not_placed": {}
+  },
+  "jade": {
+   "mod_id": "jade",
+   "structures": [],
+   "not_placed": {}
+  },
+  "shulkerboxtooltip": {
+   "mod_id": "shulkerboxtooltip",
+   "structures": [],
+   "not_placed": {}
+  },
+  "betterf3": {
+   "mod_id": "betterf3",
+   "structures": [],
+   "not_placed": {}
+  },
+  "zoomify": {
+   "mod_id": "zoomify",
+   "structures": [],
+   "not_placed": {}
+  },
+  "skin-layers-3d": {
+   "mod_id": "skinlayers3d",
+   "structures": [],
+   "not_placed": {}
+  },
+  "chat-heads": {
+   "mod_id": "chat_heads",
+   "structures": [],
+   "not_placed": {}
+  },
+  "no-chat-reports": {
+   "mod_id": "nochatreports",
+   "structures": [],
+   "not_placed": {}
+  },
+  "yacl": {
+   "mod_id": "yet_another_config_lib_v3",
+   "structures": [],
+   "not_placed": {}
+  },
+  "fabric-language-kotlin": {
+   "mod_id": "fabric-language-kotlin",
+   "structures": [],
+   "not_placed": {}
+  }
+ }
+}

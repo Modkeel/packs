@@ -3,7 +3,7 @@
 
 name = "Keel Shaders"
 slug = "shaders"
-version = "0.1.0"
+version = "0.1.1"
 summary = "Shaders on vanilla Minecraft: Iris on the optimizers the Modkeel lab measured, tested together, with a crash safety net."
 changelog = "First release."
 loader = "fabric"

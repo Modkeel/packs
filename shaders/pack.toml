@@ -34,3 +34,7 @@ iris = 455508            # shader packs on Sodium; lab: 300 mobs +64% FPS (1.21.
 
 [curseforge_skip]
 modernfix = ["26.2"]
+
+[modrinth]  # [curseforge] names whose Modrinth slug differs (the modrinth action)
+ferritecore = "ferrite-core"
+modkeel-companion = "modkeel"

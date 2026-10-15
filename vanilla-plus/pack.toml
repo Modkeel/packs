@@ -47,3 +47,8 @@ fabric-language-kotlin = 308769  # Zoomify is written in Kotlin
 
 [curseforge_skip]
 modernfix = ["26.2"]
+
+[modrinth]  # [curseforge] names whose Modrinth slug differs (the modrinth action)
+ferritecore = "ferrite-core"
+modkeel-companion = "modkeel"
+skin-layers-3d = "3dskinlayers"

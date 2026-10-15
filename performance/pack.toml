@@ -37,3 +37,7 @@ modkeel-companion = 1718308  # world copies before mod changes, crash diagnosis
 # Versions a project has no file for yet; the pack ships without it there.
 [curseforge_skip]
 modernfix = ["26.2"]
+
+[modrinth]  # [curseforge] names whose Modrinth slug differs (the modrinth action)
+ferritecore = "ferrite-core"
+modkeel-companion = "modkeel"

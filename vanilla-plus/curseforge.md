@@ -34,6 +34,8 @@ Lithium, FerriteCore, ModernFix (1.21.1), Dynamic FPS.
 | Mod Menu, Cloth Config, YetAnotherConfigLib, Fabric Language Kotlin, Fabric API | Settings screens and the libraries the mods need |
 | [Modkeel Companion](https://www.curseforge.com/minecraft/mc-mods/modkeel) | World copies before mod changes, crash diagnosis |
 
+![In survival with Keel Vanilla+: Jade names the block in the crosshair](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/hud-village.png)
+
 **Left out on purpose:** Xaero's Minimap and World Map. Added to this pack on 1.21.1 they took
 the terrain frame rate from 524 to 304 FPS (-43%) and 300 mobs on screen from 202 to 155. Every
 other mod here cost 0 to 8%.

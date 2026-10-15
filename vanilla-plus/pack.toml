@@ -15,7 +15,7 @@ minecraft = ["1.21.1", "26.2"]
 [listing]
 categories = ["Vanilla+", "Small / Light"]  # the first is the main one
 license = "MIT"
-curseforge_id = 1746611  # www.curseforge.com/minecraft/modpacks/keel-vanilla
+curseforge_id = 1746611  # www.curseforge.com/minecraft/modpacks/keel-vanilla-plus
 
 [curseforge]
 fabric-api = 306612
@@ -52,3 +52,12 @@ modernfix = ["26.2"]
 ferritecore = "ferrite-core"
 modkeel-companion = "modkeel"
 skin-layers-3d = "3dskinlayers"
+
+# Gallery candidates (build_pack.py shots vanilla-plus --mc 26.2): mode hud = in survival on the
+# ground, a cow in the crosshair (Jade), food in hand (AppleSkin), a chat line (Chat Heads).
+[[shots]]
+name = "hud-village"
+structure = "minecraft:village_plains"
+mode = "hud"
+yaw = 45
+time = 6000

@@ -20,6 +20,14 @@ categories = ["Vanilla+", "Small / Light"]  # the first is the main one
 license = "MIT"
 curseforge_id = 1746533  # www.curseforge.com/minecraft/modpacks/keel-performance
 
+# Frame-rate flight for the description (build_pack.py reel, then tools/pack_reel.py): the
+# camera circles a village with `mobs` animals around it, no mods vs the pack, same circle.
+[reel]
+structure = "minecraft:village_plains"
+mobs = 200
+seconds = 20
+every = 2  # a frame every 2 ticks: 10 per second, the GIF's own speed
+
 [curseforge]
 fabric-api = 306612
 sodium = 394468          # rendering: terrain FPS +34% (26.2), +102% (1.21.1)

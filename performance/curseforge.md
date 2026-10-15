@@ -7,6 +7,8 @@
 [Modkeel lab](https://modkeel.com) before it got in, and the whole pack is started on a real
 server and client before each release. Nothing here changes how the game plays.
 
+![The same flight over a village with 200 animals, Keel Performance against no mods, live frame rate](https://raw.githubusercontent.com/Modkeel/packs/main/performance/gallery/fps-reel.webp)
+
 ![Keel Performance against no mods on Minecraft 26.2: frame rate in three scenes](https://raw.githubusercontent.com/Modkeel/packs/main/performance/gallery/measured-26.2.png)
 
 [![Modkeel lab](https://img.shields.io/badge/Lab_data-modkeel.com-f08a3c?style=for-the-badge&labelColor=0c131d)](https://modkeel.com/minecraft/) [![Crashed](https://img.shields.io/badge/Crashed-Find_the_mod-f08a3c?style=for-the-badge&labelColor=0c131d)](https://modkeel.com/crashes/diagnose) [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&labelColor=0c131d&logo=discord&logoColor=white)](https://discord.gg/9MPy4ucDCC)

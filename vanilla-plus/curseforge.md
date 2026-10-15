@@ -9,6 +9,8 @@ blocks, items or recipes, so it joins any vanilla server and your worlds stay va
 [Modkeel lab](https://modkeel.com) measured what each mod costs before it got in, and the whole
 pack is started on a real server and client before each release.
 
+![Keel Vanilla+ against no mods on Minecraft 26.2: frame rate in three scenes](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/measured-26.2.png)
+
 [![Modkeel lab](https://img.shields.io/badge/Lab_data-modkeel.com-f08a3c?style=for-the-badge&labelColor=0c131d)](https://modkeel.com/minecraft/) [![Crashed](https://img.shields.io/badge/Crashed-Find_the_mod-f08a3c?style=for-the-badge&labelColor=0c131d)](https://modkeel.com/crashes/diagnose) [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&labelColor=0c131d&logo=discord&logoColor=white)](https://discord.gg/9MPy4ucDCC)
 
 ## What is in it
@@ -41,6 +43,8 @@ other mod here cost 0 to 8%.
 The whole pack against the same game with no mods, on one PC (GeForce GTX 1650), 1280x720,
 render distance 24, no VSync. Median frame rate, two rounds, a no-mods run before and after
 every pack run:
+
+![Keel Vanilla+ against no mods on Minecraft 1.21.1](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/measured-1.21.1.png)
 
 | Minecraft | Terrain | 300 mobs on screen | 300 mobs behind a wall |
 |---|---|---|---|

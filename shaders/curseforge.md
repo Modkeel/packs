@@ -42,6 +42,8 @@ The whole pack, with shaders off, against the same game with no mods, on one PC 
 1650), 1280x720, render distance 24, no VSync. Median frame rate, two rounds, a no-mods run
 before and after every pack run:
 
+![Keel Shaders against no mods on Minecraft 26.2, shaders off](https://raw.githubusercontent.com/Modkeel/packs/main/shaders/gallery/measured-26.2.png)
+
 | Minecraft | Terrain | 300 mobs on screen | 300 mobs behind a wall |
 |---|---|---|---|
 | 26.2 | 380 FPS vs 284 (+33%) | 182 vs 105 (+74%) | 342 vs 85 (+303%) |

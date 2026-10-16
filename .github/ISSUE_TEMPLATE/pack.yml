@@ -9,7 +9,7 @@ body:
     id: pack
     attributes:
       label: Pack
-      options: [Keel Performance, Keel Shaders, Keel Vanilla+, "Keel: Better Structures"]
+      options: [Keel Performance, Keel Shaders, Keel Comfort, "Keel: Better Structures"]
     validations:
       required: true
   - type: input

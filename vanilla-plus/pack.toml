@@ -1,9 +1,9 @@
-# Keel Vanilla+. Keel Performance plus the client-side quality-of-life mods that Fabric
+# Keel Comfort. Keel Performance plus the client-side quality-of-life mods that Fabric
 # modpacks carry most (the lab's modpack co-occurrence study): nothing that changes worlds or recipes, so
 # it joins any vanilla server. Built for CurseForge: tools/build_pack.py curseforge
 # vanilla-plus. Draft: built, tested and benchmarked before its first release.
 
-name = "Keel Vanilla+"
+name = "Keel Comfort"
 slug = "vanilla-plus"
 version = "0.1.0"
 summary = "Vanilla Minecraft, faster and friendlier: measured optimizers plus the quality-of-life mods most packs carry, client-side only."

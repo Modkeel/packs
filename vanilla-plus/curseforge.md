@@ -1,7 +1,7 @@
-<!-- CurseForge description of Keel Vanilla+ (paste in Markdown mode). Summary field: -->
+<!-- CurseForge description of Keel Comfort (paste in Markdown mode). Summary field: -->
 <!-- Vanilla Minecraft, faster and friendlier: measured optimizers plus the quality-of-life mods most packs carry, client-side only. -->
 
-# Keel Vanilla+
+# Keel Comfort
 
 **Vanilla Minecraft, faster and friendlier.** The measured optimizers of Keel Performance,
 plus the quality-of-life mods that Fabric modpacks carry most. Every one is client-side: no new
@@ -9,7 +9,7 @@ blocks, items or recipes, so it joins any vanilla server and your worlds stay va
 [Modkeel lab](https://modkeel.com) measured what each mod costs before it got in, and the whole
 pack is started on a real server and client before each release.
 
-![Keel Vanilla+ against no mods on Minecraft 26.2: frame rate in three scenes](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/measured-26.2.png)
+![Keel Comfort against no mods on Minecraft 26.2: frame rate in three scenes](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/measured-26.2.png)
 
 [![Modkeel lab](https://img.shields.io/badge/Lab_data-modkeel.com-f08a3c?style=for-the-badge&labelColor=0c131d)](https://modkeel.com/minecraft/) [![Crashed](https://img.shields.io/badge/Crashed-Find_the_mod-f08a3c?style=for-the-badge&labelColor=0c131d)](https://modkeel.com/crashes/diagnose) [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&labelColor=0c131d&logo=discord&logoColor=white)](https://discord.gg/9MPy4ucDCC)
 
@@ -34,7 +34,7 @@ Lithium, FerriteCore, ModernFix (1.21.1), Dynamic FPS.
 | Mod Menu, Cloth Config, YetAnotherConfigLib, Fabric Language Kotlin, Fabric API | Settings screens and the libraries the mods need |
 | [Modkeel Companion](https://www.curseforge.com/minecraft/mc-mods/modkeel) | World copies before mod changes, crash diagnosis |
 
-![In survival with Keel Vanilla+: Jade names the block in the crosshair](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/hud-village.png)
+![In survival with Keel Comfort: Jade names the block in the crosshair](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/hud-village.png)
 
 **Left out on purpose:** Xaero's Minimap and World Map. Added to this pack on 1.21.1 they took
 the terrain frame rate from 524 to 304 FPS (-43%) and 300 mobs on screen from 202 to 155. Every
@@ -46,7 +46,7 @@ The whole pack against the same game with no mods, on one PC (GeForce GTX 1650),
 render distance 24, no VSync. Median frame rate, two rounds, a no-mods run before and after
 every pack run:
 
-![Keel Vanilla+ against no mods on Minecraft 1.21.1](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/measured-1.21.1.png)
+![Keel Comfort against no mods on Minecraft 1.21.1](https://raw.githubusercontent.com/Modkeel/packs/main/vanilla-plus/gallery/measured-1.21.1.png)
 
 | Minecraft | Terrain | 300 mobs on screen | 300 mobs behind a wall |
 |---|---|---|---|
